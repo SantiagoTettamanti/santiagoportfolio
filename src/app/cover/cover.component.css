@@ -1,5 +1,9 @@
 .parallax {
     background-image: url("../../assets/coverLandscape.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #cover {
@@ -24,6 +28,7 @@ h1 {
     border: solid transparent;
     border-width: 0 0 2rem 2rem;
     transition: 0.2s;
+    animation: pulse 2s infinite;
   }
   
   .arrow:hover {
@@ -33,5 +38,21 @@ h1 {
   
   .arrow-down  { transform:rotate(-45deg) }
 
+  @keyframes pulse {
+    0%{
+        box-shadow: 1px -1px 0 1px plum inset;
+        -webkit-box-shadow: 2px -2px plum inset;
+    }
+
+    50%{
+        box-shadow: 2px -2px 0 2px orchid inset;
+        -webkit-box-shadow: 4px -4px orchid inset;
+    }
+
+    100%{
+        box-shadow: 1px -1px 0 1px plum inset;
+        -webkit-box-shadow: 2px -2px plum inset;
+    }
+  }
 
   

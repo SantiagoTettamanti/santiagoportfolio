@@ -1,0 +1,11 @@
+h1  {
+    font-size: 291px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+img {
+    width: 70%;
+    display: inline;
+}
+
