@@ -1,0 +1,37 @@
+.parallax {
+    background-image: url("../../assets/coverLandscape.jpeg");
+}
+
+#cover {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    padding-left: 50%;
+    padding-top: 28%;
+    color: #ecf0f1;
+    font-weight: 100;
+}
+
+.arrow {
+    position: absolute;
+    left: 47%;
+    top: 83%;
+    padding: 1.4rem;   /*arrow size*/
+            box-shadow: 1px -1px 0 1px plum inset;
+    -webkit-box-shadow: 2px -2px plum inset;
+    border: solid transparent;
+    border-width: 0 0 2rem 2rem;
+    transition: 0.2s;
+  }
+  
+  .arrow:hover {
+            box-shadow: 2px -2px 0 2px orchid inset;
+    -webkit-box-shadow: 4px -4px orchid inset;
+  }
+  
+  .arrow-down  { transform:rotate(-45deg) }
+
+
+  
