@@ -3,3 +3,9 @@
     width: 100%;
     z-index: 999;
 }
+
+.navbar-brand {
+    font-family: 'Righteous';
+    letter-spacing: -2px;
+    font-size: 30px;
+}
