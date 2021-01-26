@@ -1,11 +1,21 @@
 h1  {
-    font-size: 291px;
+    width: 100%;
     display: inline-block;
+    content: "";
+    font-size: 20.21vw;
+    margin: 0 0 0 0;
     white-space: nowrap;
+    overflow: hidden;
 }
 
+#about-me-header {
+    text-align: justify;
+    padding: 0 0 0 0;
+    
+}
+
+
 img {
-    width: 70%;
     display: inline;
 }
 
