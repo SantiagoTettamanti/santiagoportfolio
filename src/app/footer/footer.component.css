@@ -11,18 +11,19 @@
     width: 100%;
 }
 
-img {
-    height: 40px;
+svg {
+    height: 50px;
     margin: auto;
     display: block;
-    opacity: 0.7;
+    opacity: 0.5;
+    fill: white;
 }
 
 .container {
     height: 300px;
 }
 
-img:hover {
+svg:hover {
     opacity: 1;
     height: 42.5px;
 }
