@@ -1,0 +1,28 @@
+.parallax {
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#footer {
+    background-image: url(../../assets/dallasSkyline.jpg);
+    height: 90vh;
+    width: 100%;
+}
+
+img {
+    height: 40px;
+    margin: auto;
+    display: block;
+    opacity: 0.7;
+}
+
+.container {
+    height: 300px;
+}
+
+img:hover {
+    opacity: 1;
+    height: 42.5px;
+}
