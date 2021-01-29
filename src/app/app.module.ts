@@ -8,6 +8,7 @@ import { CoverComponent } from './cover/cover.component';
 import { BioComponent } from './bio/bio.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     CoverComponent,
     BioComponent,
     TechnologiesComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
