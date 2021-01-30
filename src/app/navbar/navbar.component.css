@@ -9,3 +9,23 @@
     letter-spacing: -2px;
     font-size: 30px;
 }
+
+.navbar-brand:hover {
+    color: orchid
+}
+#projects:hover {
+    color: #49E899          
+}
+
+#technologies:hover {
+    color: #49E899          
+}
+
+#bio:hover {
+    color: #49E899          
+}
+
+#home:hover {
+    color: #49E899          
+}
+
