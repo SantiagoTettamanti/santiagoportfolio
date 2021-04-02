@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "SantiagoPortfolio"
+    }
+  },
+  "defaultProject": "SantiagoPortfolio",
+  "cli": {
+    "analytics": false
+  }
 }
