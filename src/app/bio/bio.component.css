@@ -17,5 +17,6 @@ h1  {
 
 img {
     display: inline;
+    width: 90vw;
+    max-width: 650px;
 }
-
