@@ -1,40 +1,50 @@
 
 #yelpcamp {
     background-image: url(../../assets/projects/yelpcamphome.png);
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 500px;
     background-size: contain;
-};
+    background-repeat: no-repeat;
+}
 
 #yelpcamp:hover {
     background-image: url(../../assets/projects/yelpcampcampgrounds.png);
-    height: 200px;
-    width: 300px;
-};
+}
 
 #elisa {
     background-image: url(../../assets/projects/elisahome.png);
-    height: 200px;
-    width: 300px;
-    background-size: contain;
-    
-};
+    height: 300px;
+    width: 500px;
+    background-size: contain;  
+    background-repeat: no-repeat;
+}
 
 #elisa:hover {
     background-image: url(../../assets/projects/elisaaccesories.png);
-    height: 200px;
-    width: 300px;
-};
+}
 
 #third {
     background-image: url(../../assets/projects/yelpcamphome.png);
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
     
 }
 
 #third:hover {
     background-image: url(../../assets/projects/yelpcampcampgrounds.png);
-    height: 200px;
-    width: 300px;
-};
+}
+
+#fourth {
+    background-image: url(../../assets/projects/yelpcamphome.png);
+    height: 300px;
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#fourth:hover {
+    background-image: url(../../assets/projects/yelpcampcampgrounds.png);
+}
