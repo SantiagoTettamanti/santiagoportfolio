@@ -12,7 +12,7 @@
     }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 300px) {
     h1 {
         margin-top: 55%;
     }
