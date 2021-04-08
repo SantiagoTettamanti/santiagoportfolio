@@ -13,6 +13,11 @@
 .navbar-brand:hover {
     color: orchid
 }
+
+/* .nav-link:hover {
+    color: #49E899 
+} */
+
 #projects:hover {
     color: #49E899          
 }
