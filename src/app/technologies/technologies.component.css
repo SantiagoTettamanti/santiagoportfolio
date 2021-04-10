@@ -7,6 +7,12 @@ h1 {
     /* height: 500px; */
 }
 
+@media (min-width: 300px) and (max-width: 750px) {
+    h1 {
+        font-size: 12vw;
+    }
+}
+
 #html {
     height: auto;
     width: 250%;

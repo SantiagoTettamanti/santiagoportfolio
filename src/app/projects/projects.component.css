@@ -1,16 +1,29 @@
-
+section {
+    background-color: lightcyan;
+}
 h1 {
-    color: honeydew;
-    font-family: 'Montserrat';
-    font-size: 4vw;
+    color: ;
+    font-family: 'Bungee shade';
+    font-size: 10vw;
     margin-top: 3%;
     margin-bottom: 3%;
     padding-bottom: 0.5%;
     width: 100%;
-    background-color: rgba(214, 168, 15, 0.7)
     /* height: 500px; */
 }
 
+@media (min-width: 300px) and (max-width: 600px) {
+    h1 {
+        font-size: 15vw;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .projects {
+        margin-bottom: 0em;
+        padding-bottom: 0em;
+    }
+}
 
 #yelpcamp {
     background-image: url(../../assets/projects/yelpcamphome.png);
