@@ -1,9 +1,10 @@
 #technologies {
-    margin-top: -71px;
-    padding-top: 71px;
-    margin-bottom: 100px;
+  margin-top: -71px;
+  padding-top: 71px;
+  margin-bottom: 100px;
 }
 
+<<<<<<< HEAD
 .carousel-custom {
     width: auto;
     height: 55vh;
@@ -13,80 +14,81 @@
 .arrow {
     margin-top: 25%;
     font-size: 50px;
+=======
+.row {
+>>>>>>> ce3be20b42f8daf5ced95e4ce73e2d611e75f286
 }
 
 h1 {
-    color: #d6a80f;
-    font-family: 'Monofett';
-    font-size: 7vw;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    /* height: 500px; */
+  color: #d6a80f;
+  font-family: "Monofett";
+  font-size: 7vw;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  /* height: 500px; */
 }
 
 @media (min-width: 300px) and (max-width: 750px) {
-    h1 {
-        font-size: 12vw;
-    }
+  h1 {
+    font-size: 12vw;
+  }
 }
 
 #html {
-    height: auto;
-    width: 250%;
-    margin-left: 50%;
+  height: auto;
+  width: 250%;
+  margin-left: 50%;
 }
 
 #css {
-    height: auto;
-    width: 200%;
-    margin-top: 300%;
-    margin-right: 80%;
+  height: auto;
+  width: 200%;
+  margin-top: 300%;
+  margin-right: 80%;
 }
 
 #js {
-    height: auto;
-    width: 160%;
-    margin-top: 100%;
+  height: auto;
+  width: 160%;
+  margin-top: 100%;
 }
 
 #ts {
-    height: auto;
-    width: 100%;
-    margin-top: 300%;
+  height: auto;
+  width: 100%;
+  margin-top: 300%;
 }
 
 #ng {
-    height: auto;
-    width: 200%;
+  height: auto;
+  width: 200%;
 }
 
 #git {
-    height: auto;
-    width: 250%;
-    margin-top: 300%;
-    margin-left: 100%;
+  height: auto;
+  width: 250%;
+  margin-top: 300%;
+  margin-left: 100%;
 }
 
 #node {
-    height: auto;
-    width: 180%;
-    margin-top: 290%;
+  height: auto;
+  width: 180%;
+  margin-top: 290%;
 }
 
 #mongo {
-    height: auto;
-    width: 200%;
-    border-radius: 50%;
-    margin-top: 100%;
-    margin-left: 50%;
+  height: auto;
+  width: 200%;
+  border-radius: 50%;
+  margin-top: 100%;
+  margin-left: 50%;
 }
 
 #bootstrap {
-    height: auto;
-    width: 100%;
-    border-radius: 50%;
-    margin-left: 100%;
-    margin-top: 50%;
+  height: auto;
+  width: 100%;
+  border-radius: 50%;
+  margin-left: 100%;
+  margin-top: 50%;
 }
-
-
