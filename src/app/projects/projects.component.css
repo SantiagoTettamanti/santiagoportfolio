@@ -1,8 +1,10 @@
 section {
     background-color: lightcyan;
+    margin-top: -71px;
+    padding-top: 71px; 
 }
+
 h1 {
-    color: ;
     font-family: 'Bungee shade';
     font-size: 10vw;
     margin-top: 3%;
