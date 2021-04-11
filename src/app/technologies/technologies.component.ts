@@ -17,7 +17,7 @@ export class TechnologiesComponent implements OnInit {
     '../../assets/Technologies_logos/css.svg.png',
     '../../assets/Technologies_logos/js.svg.png',
     '../../assets/Technologies_logos/bootstrap.png',
-    '../../assets/Technologies_logos/gitround.svg.png'
+    '../../assets/Technologies_logos/gitround.svg.png',
   ];
 
   public currentCarouselIndex = 0;
@@ -40,8 +40,8 @@ export class TechnologiesComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    setInterval(() => { 
-      this.nextImage(); 
+    setInterval(() => {
+      this.nextImage();
     }, 2000);
   }
 }
