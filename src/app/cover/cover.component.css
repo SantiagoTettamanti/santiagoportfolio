@@ -6,6 +6,12 @@
     background-size: cover;
 }
 
+@media (min-width: 1px) and (max-width: 500px) {
+    .parallax {
+        background-attachment: local;
+    }
+}
+
 @media (min-width: 300px) and (max-width: 800px) {
     .parallax {
         background-image: url("../../assets/coverportrait.jpeg");
