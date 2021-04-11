@@ -4,8 +4,15 @@
     margin-bottom: 100px;
 }
 
-.row {
-    
+.carousel-custom {
+    width: auto;
+    height: 55vh;
+    margin: auto;
+}
+
+.arrow {
+    margin-top: 25%;
+    font-size: 50px;
 }
 
 h1 {

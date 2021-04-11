@@ -31,4 +31,19 @@
         </div>
         <div class="col-1"></div>
     </div>
+
+
+    <div class="d-lg-none row">
+        <div class="arrow col-2">
+            <i (click)="previousImage()" class="far fa-arrow-alt-circle-left"></i>
+        </div>
+
+        <div class="col-8 justify-content-center">    
+            <img class="carousel-custom" src={{imageLinks[currentCarouselIndex]}} alt="">
+        </div>
+
+        <div class="arrow col-2">
+            <i (click)="nextImage()" class="far fa-arrow-alt-circle-right"></i>
+        </div>
+    </div>
 </div>
