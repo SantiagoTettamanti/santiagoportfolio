@@ -1,38 +1,38 @@
 .parallax {
-    background-attachment: fixed;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #footer {
-    background-image: url(../../assets/dallasSkyline.jpg);
-    height: 40vw;
-    max-height: 700px;
-    width: 100%;
+  background-image: url(../../assets/dallasSkyline.jpg);
+  height: 40vw;
+  max-height: 700px;
+  width: 100%;
 }
 
 svg {
-    height: 50px;
-    margin: auto;
-    display: block;
-    opacity: 0.5;
-    fill: white;
+  height: 50px;
+  margin: auto;
+  display: block;
+  opacity: 0.5;
+  fill: white;
 }
 
 .container {
-    height: 300px;
+  height: 300px;
 }
 
 svg:hover {
-    opacity: 1;
-    height: 42.5px;
+  opacity: 1;
+  height: 42.5px;
 }
 
 @media (max-width: 776px) {
-    #footer {
-        height: 40vw;
-        width: 100vw;
-        max-height: none;
-    }
+  #footer {
+    height: 40vw;
+    width: 100vw;
+    max-height: none;
+  }
 }
