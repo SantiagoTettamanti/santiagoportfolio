@@ -1,17 +1,17 @@
 .navbar-fixed-top {
-    position: fixed;
-    width: 100%;
-    z-index: 999;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 
 .navbar-brand {
-    font-family: 'Righteous';
-    letter-spacing: -2px;
-    font-size: 30px;
+  font-family: "Righteous";
+  letter-spacing: -2px;
+  font-size: 30px;
 }
 
 .navbar-brand:hover {
-    color: orchid
+  color: orchid;
 }
 
 /* .nav-link:hover {
@@ -19,22 +19,21 @@
 } */
 
 #project-tab:hover {
-    color: #49E899          
+  color: #49e899;
 }
 
 #technology-tab:hover {
-    color: #49E899          
+  color: #49e899;
 }
 
 #bio:hover {
-    color: #49E899          
+  color: #49e899;
 }
 
 #home:hover {
-    color: #49E899          
+  color: #49e899;
 }
 
 #resume:hover {
-    color: #49E899
+  color: #49e899;
 }
-

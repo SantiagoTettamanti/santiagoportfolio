@@ -1,34 +1,89 @@
 <div id="technologies" class="container-fluid">
-    <h1 class="text-center float">Technologies</h1>
-    <div class="row d-none d-lg-flex">
-        <div class="col-1">
-            <img  class="" id="html" src="../../assets/Technologies_logos/htmlround.svg.png" alt="">
-        </div>
-        <div class="col-1"></div>
-        <div class="col-1">
-            <img id="css" src="../../assets/Technologies_logos/cssround.svg.png" alt="">
-        </div>
-        <div class="col-1">
-            <img id="js" src="../../assets/Technologies_logos/jsround.svg.png" alt="">
-        </div>
-        <div class="col-1">
-            <img id="ts" src="../../assets/Technologies_logos/tsround.svg.png" alt="">
-        </div>
-        <div class="col-1">
-            <img id="ng" src="../../assets/Technologies_logos/angularround.svg.png" alt="">
-        </div>
-        <div class="col-1">
-            <img id="node" src="../../assets/Technologies_logos/noderound.svg.png" alt="">
-        </div>
-        <div class="col-1">
-            <img id="mongo" src="../../assets/Technologies_logos/mongodbround.svg.png" alt="">
-        </div>
-        <div class="col-1">
-            <img id="git" src="../../assets/Technologies_logos/gitround.svg.png" alt="">
-        </div>
-        <div class="col-1">
-            <img id="bootstrap" src="../../assets/Technologies_logos/bootstrap.png" alt="">
-        </div>
-        <div class="col-1"></div>
+  <h1 class="text-center float">Technologies</h1>
+  <div class="row d-none d-lg-flex">
+    <div class="col-1">
+      <img
+        class=""
+        id="html"
+        src="../../assets/Technologies_logos/htmlround.svg.png"
+        alt=""
+      />
     </div>
+    <div class="col-1"></div>
+    <div class="col-1">
+      <img
+        id="css"
+        src="../../assets/Technologies_logos/cssround.svg.png"
+        alt=""
+      />
+    </div>
+    <div class="col-1">
+      <img
+        id="js"
+        src="../../assets/Technologies_logos/jsround.svg.png"
+        alt=""
+      />
+    </div>
+    <div class="col-1">
+      <img
+        id="ts"
+        src="../../assets/Technologies_logos/tsround.svg.png"
+        alt=""
+      />
+    </div>
+    <div class="col-1">
+      <img
+        id="ng"
+        src="../../assets/Technologies_logos/angularround.svg.png"
+        alt=""
+      />
+    </div>
+    <div class="col-1">
+      <img
+        id="node"
+        src="../../assets/Technologies_logos/noderound.svg.png"
+        alt=""
+      />
+    </div>
+    <div class="col-1">
+      <img
+        id="mongo"
+        src="../../assets/Technologies_logos/mongodbround.svg.png"
+        alt=""
+      />
+    </div>
+    <div class="col-1">
+      <img
+        id="git"
+        src="../../assets/Technologies_logos/gitround.svg.png"
+        alt=""
+      />
+    </div>
+    <div class="col-1">
+      <img
+        id="bootstrap"
+        src="../../assets/Technologies_logos/bootstrap.png"
+        alt=""
+      />
+    </div>
+    <div class="col-1"></div>
+  </div>
+
+  <div class="d-lg-none row">
+    <div class="arrow col-2">
+      <i (click)="previousImage()" class="far fa-arrow-alt-circle-left"></i>
+    </div>
+
+    <div class="col-8 justify-content-center">
+      <img
+        class="carousel-custom"
+        src="{{ imageLinks[currentCarouselIndex] }}"
+        alt=""
+      />
+    </div>
+
+    <div class="arrow col-2">
+      <i (click)="nextImage()" class="far fa-arrow-alt-circle-right"></i>
+    </div>
+  </div>
 </div>
