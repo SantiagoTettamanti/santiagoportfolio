@@ -13,6 +13,10 @@ h1 {
   padding: 0 0 0 0;
 }
 
+p {
+  padding-top: 170px;
+}
+
 img {
   display: inline;
   width: 90vw;
