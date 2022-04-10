@@ -7,7 +7,7 @@
 }
 
 h1 {
-  transform: translate(70px, 350%);
+  /* width: 10px; */
   /* padding-left: 50%; */
   /* padding-top: 28%; */
   color: #ecf0f1;
@@ -26,78 +26,9 @@ h1 {
   }
 }
 
-@media (min-width: 400px) and (max-width: 525px) {
-  h1 {
-    transform: translate(10px, 720%);
-  }
-}
-
-@media (min-width: 525px) {
-  h1 {
-    transform: translate(10px, 720%);
-  }
-}
-
-@media (min-width: 540px) {
-  h1 {
-    transform: translate(60px, 800%);
-  }
-}
-
-@media (min-width: 600px) {
-  h1 {
-    transform: translate(100px, 900%);
-  }
-}
-
-@media (min-width: 650px) {
-  h1 {
-    transform: translate(120px, 950%);
-  }
-}
-
-@media (min-width: 700px) {
-  h1 {
-    transform: translate(120px, 950%);
-  }
-}
-
-@media (min-width: 750px) {
-  h1 {
-    transform: translate(190px, 950%);
-  }
-}
-
 @media (min-width: 801px) {
   .parallax {
     background-image: url("../../assets/coverLandscape.jpeg");
-  }
-  h1 {
-    transform: translate(300px, 800%);
-  }
-}
-
-@media (min-width: 850px) {
-  h1 {
-    transform: translate(400px, 800%);
-  }
-}
-
-@media (min-width: 900px) {
-  h1 {
-    transform: translate(400px, 800%);
-  }
-}
-
-@media (min-width: 950px) {
-  h1 {
-    transform: translate(500px, 800%);
-  }
-}
-
-@media (min-width: 1000px) {
-  h1 {
-    transform: translate(600px, 800%);
   }
 }
 
